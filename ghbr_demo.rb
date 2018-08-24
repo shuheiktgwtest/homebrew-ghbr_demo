@@ -2,10 +2,10 @@ require 'formula'
 
 class Ghbr_demo < Formula
   homepage 'https://github.com/shuheiktgwtest/ghbr_demo'
-  version 'v0.0.1'
+  version '0.0.2'
 
-  url 'https://github.com/shuheiktgwtest/ghbr_demo/releases/download/v0.0.1/ghbr_demo_v0.0.1_darwin_amd64.zip'
-  sha256 '7eec5b890cca0c9be1f452116100b309978556fb9fae57251be0c9bfa874225d'
+  url 'https://github.com/shuheiktgwtest/ghbr_demo/releases/download/0.0.2/ghbr_demo_v0.0.2_darwin_amd64.zip'
+  sha256 '02a22b495dba0744e42368bf31fe5ea4e293656331200857379f74ba5c9c65b6'
 
   def install
     bin.install 'ghbr_demo'
